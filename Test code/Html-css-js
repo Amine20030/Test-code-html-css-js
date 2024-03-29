@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food, LLC</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/custom.css">
+</head>
+<body>
+    <nav class="navbar navbar-default navbar-static-top hidden-xs">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">Food, LLC</a>
+            </div>
+        </div>
+    </nav>
+    
+    <nav class="navbar navbar-default navbar-static-top visible-xs">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mobile-menu">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Food, LLC</a>
+            </div>
+            <div class="collapse navbar-collapse" id="mobile-menu">
+                <ul class="nav navbar-nav">
+                    <li><a href="#">Chicken</a></li>
+                    <li><a href="#">Beef</a></li>
+                    <li><a href="#">Sushi</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <div class="container text-center">
+        <h1 class="text-center">Our Menu</h1>
+        
+        <div class="row">
+            <div class="col-md-12" style="height: 1000px;">
+                <!-- Content goes here -->
+            </div>
+        </div>
+    </div>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
+.navbar-default {
+    background-color: #f8f8f8;
+    border-color: #e7e7e7;
+}
+
+.navbar-brand {
+    padding: 15px 0;
+}
+
+.navbar-header {
+    float: none;
+}
+
+.navbar-toggle {
+    margin: 15px 15px 15px 0;
+}
+
+.collapse.in {
+    display: block !important;
+}
